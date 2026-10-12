@@ -16,13 +16,18 @@ We welcome ideas, workflows, and community activities from across DESC. This spa
 
 ## 🚀 First activity: Lightcone Research Pilot
 
+
 The **Lightcone Research Pilot** is a first activity within this broader effort. Participating DESC members will test and help improve **Lightcone Research's agentic tooling** on real LSST science questions and workflows. The [Lightcone Research team](https://lightconeresearch.org/) brings **focused engineering, compute, and model inference** to this work, with the aim of understanding where its tools are scientifically useful and developing best practices the Collaboration can adopt more broadly. Because resources are limited and the aim is a **focused effort with fast turnaround**, the Lightcone team plans to extend this dedicated support to a **limited number of projects**, subject to capacity.
-
-Lightcone Research is developing tooling that helps you plan and run analyses with Claude Code or Codex on your own code and data, while keeping you in charge of the scientific choices. It records those choices and the code, inputs, and environment behind each result, making the work easier to inspect, reproduce, and share. You can explore the analysis in JupyterLab and build reports linked to its results. Explore the [Lightcone Research Stack documentation](https://docs.lightconeresearch.org/) or try the [worked cosmology example](https://docs.lightconeresearch.org/guides/first-analysis) to see it in action.
-
 
 The call for ideas is planned for **12 October 2026**, with proposals due by **16 October 2026**. We plan to initiate participating projects as sprints at **DESC Sprint Week**, where we will kick off selected projects.
 
 [![Submit a project idea](docs/assets/submit-project-idea.svg)](https://github.com/LSSTDESC/agentic-research/discussions/categories/lightcone-research-pilot-proposals)
 
 ➡️ **[Read more about the Lightcone Research Pilot](docs/lightcone-pilot/README.md).**
+
+**What is Lightcone Research building**: Lightcone Research is developing tooling that helps you plan and run analyses with Claude Code or Codex on your own code and data, while keeping you in charge of the scientific choices. It records those choices and the code, inputs, and environment behind each result, making the work easier to inspect, reproduce, and share. You can explore the analysis in JupyterLab and build reports linked to its results. Explore the [Lightcone Research Stack documentation](https://docs.lightconeresearch.org/) or try the [worked cosmology example](https://docs.lightconeresearch.org/guides/first-analysis) to see it in action.
+
+[![Lightcone Lab — open the interactive demo](https://app.arcade.software/og/pH82yeDB42jfi3VGHr71)](https://demo.arcade.software/pH82yeDB42jfi3VGHr71)
+
+▶ **[Explore Lightcone Lab in an interactive demo](https://demo.arcade.software/pH82yeDB42jfi3VGHr71)**
+
