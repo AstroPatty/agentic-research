@@ -27,13 +27,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: existing-workflow
-    attributes:
-      label: Current approach and obstacles
-      description: What does the research workflow look like today, and what makes it difficult?
-    validations:
-      required: true
-  - type: textarea
     id: role-for-agents
     attributes:
       label: Potential role for AI agents
@@ -41,10 +34,24 @@ body:
     validations:
       required: false
   - type: textarea
-    id: starting-point
+    id: relevant-links
     attributes:
-      label: Available starting point
-      description: Describe existing code, documentation, simulations, datasets, benchmarks, or workflows. Share only descriptions and public links authorized for this audience.
+      label: Relevant repositories, code, and analysis links
+      description: Link to relevant repositories, analysis code, notebooks, documentation, or prior work. Share only links authorized for public sharing; describe restricted resources at a high level instead.
+    validations:
+      required: false
+  - type: textarea
+    id: data-requirements
+    attributes:
+      label: Data and access requirements
+      description: What datasets, simulations, or observations would you use? If known, describe their approximate size, where they are hosted, any access permissions needed, and whether the data must stay at a particular facility. Include only details suitable for public discussion.
+    validations:
+      required: false
+  - type: textarea
+    id: computing-requirements
+    attributes:
+      label: Computing environment and requirements
+      description: Does the work need to run at NERSC, CC-IN2P3, on a local machine, or elsewhere? Note any required accounts or allocations, CPU/GPU or memory needs, software or containers, and restrictions on network access or external model inference. High-level requirements are enough; it is fine if details are not yet known. Do not include credentials.
     validations:
       required: false
   - type: textarea
@@ -66,12 +73,5 @@ body:
     attributes:
       label: Relevant DESC working group / collaborators
       description: Mention related efforts or collaborators to help make connections and avoid duplication.
-    validations:
-      required: false
-  - type: textarea
-    id: constraints
-    attributes:
-      label: Constraints or dependencies
-      description: Describe data permissions, compute environment, validation needs, or prior commitments at a high level only. Do not include secrets, credentials, sensitive data, restricted content, or access-controlled links.
     validations:
       required: false

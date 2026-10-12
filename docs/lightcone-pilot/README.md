@@ -24,7 +24,7 @@ The October 16 deadline gives the team and interested scientific collaborators a
 
 Once the call opens, use one [Lightcone Research Pilot Proposals](https://github.com/LSSTDESC/agentic-research/discussions/categories/lightcone-research-pilot-proposals) Discussion per research idea for testing and improving Lightcone's tooling through this focused collaboration. This category is exclusively for participation in the Lightcone pilot and discussion of those proposals. Use [General](https://github.com/LSSTDESC/agentic-research/discussions/categories/general) for broader research ideas, potential collaborations, and other initiatives.
 
-The form is intended to take about 10–15 minutes and asks for the scientific goal, current approach and obstacles, a useful pilot outcome, and a scientific contact's involvement. Optional fields cover possible agent roles, starting resources, related working groups, and constraints. It is fine to be unsure how agents could help.
+The form is intended to take about 10–15 minutes and asks for the scientific goal, a useful pilot outcome, and a scientific contact's involvement. Optional fields cover possible agent roles; links to repositories, analysis code, notebooks, and related work; data and access requirements; computing requirements such as running at NERSC, CC-IN2P3, or another environment; and related working groups. It is fine to be unsure how agents could help or not yet know the infrastructure details.
 
 Read [Participating in the Lightcone Research Pilot](participation.md) for how the team works with interested researchers to identify useful projects within available capacity. Community discussion helps refine ideas; upvotes do not allocate support.
 
