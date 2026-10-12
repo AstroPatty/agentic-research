@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="44" viewBox="0 0 260 44" role="img" aria-labelledby="title">
+  <title id="title">Submit a project idea</title>
+  <rect x="0.5" y="0.5" width="259" height="43" rx="8" fill="#4e5a70" stroke="#a67c3c"/>
+  <text x="22" y="27" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600">Submit a project idea</text>
+  <path d="M224 22h14m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

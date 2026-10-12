@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="48" viewBox="0 0 280 48" role="img" aria-labelledby="title">
+  <title id="title">Join the discussion</title>
+  <rect x="0.5" y="0.5" width="279" height="47" rx="8" fill="#0969da" stroke="#58a6ff"/>
+  <text x="24" y="30" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Join the discussion</text>
+  <path d="M240 24h15m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
