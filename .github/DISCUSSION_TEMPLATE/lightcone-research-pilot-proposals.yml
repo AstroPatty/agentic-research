@@ -1,0 +1,89 @@
+# Category slug verified: lightcone-research-pilot-proposals. Publish on the default branch to activate.
+title: "[Lightcone pilot proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a research project for the **Lightcone Research Pilot**: an activity to test and improve
+        Lightcone Research's agentic tooling on LSST science questions and workflows.
+        This category is exclusively for participation in that pilot and discussion of those proposals.
+        The Lightcone team is made up of DESC members and provides focused engineering, compute, and model inference.
+        The call is planned for **12 October 2026**, with ideas due by **16 October 2026**.
+        Participating projects will be proposed as sprints at **DESC Sprint Week** to kick off the Lightcone pilot with DESC members.
+        For broader research ideas, potential collaborations, or other initiatives, use
+        [General](https://github.com/LSSTDESC/agentic-research/discussions/categories/general).
+        Aim for a short proposal that takes about 10–15 minutes to complete.
+        Bring an interesting scientific problem and a willingness to try the tools, evaluate the outputs, and give feedback.
+        No prior knowledge of Lightcone's tooling or fully designed agent architecture is needed.
+
+        **This repository and all proposals are public on the internet.**
+        Proposals are visible to everyone who can access this repository, including people outside DESC.
+        Please avoid confidential data, unpublished results that cannot be shared with this audience,
+        credentials, tokens, personal information, and links to restricted resources.
+        Describe sensitive dependencies at a high level and arrange details through approved channels.
+        Do not upload restricted DESC or Rubin data to external model-inference providers without explicit authorization.
+
+        Resources are limited, and the goal is a focused effort with fast turnaround.
+        The team aims to extend dedicated support to a limited number of projects.
+        Everyone is welcome to experiment, collaborate, and share what they learn, whether or not they receive that support.
+        Comments help refine ideas; upvotes do not allocate resources.
+        Support is subject to capacity, scope, and approved access; submission grants no resource or access entitlement.
+        Read about the [Lightcone Research Pilot](https://github.com/LSSTDESC/agentic-research/blob/main/docs/lightcone-pilot/README.md)
+        for the current call status and follow [DESC policies](https://lsstdesc.org/pages/policies.html).
+  - type: textarea
+    id: scientific-question
+    attributes:
+      label: Scientific question or objective
+      description: What scientific goal or bottleneck does this address, and why does it matter?
+    validations:
+      required: true
+  - type: textarea
+    id: existing-workflow
+    attributes:
+      label: Current approach and obstacles
+      description: What does the research workflow look like today, and what makes it difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: role-for-agents
+    attributes:
+      label: Potential role for AI agents
+      description: Where might agents help? It is completely fine to be unsure; no architecture is needed.
+    validations:
+      required: false
+  - type: textarea
+    id: starting-point
+    attributes:
+      label: Available starting point
+      description: Describe existing code, documentation, simulations, datasets, benchmarks, or workflows. Share only descriptions and public links authorized for this audience.
+    validations:
+      required: false
+  - type: textarea
+    id: pilot-outcome
+    attributes:
+      label: What would a useful Lightcone pilot project demonstrate?
+      description: Suggest a meaningful scientific outcome or early milestone and how you would evaluate the tooling's usefulness and limitations.
+    validations:
+      required: true
+  - type: textarea
+    id: scientific-contact
+    attributes:
+      label: Scientific point of contact and involvement
+      description: Give a public professional name or GitHub handle and how you will work with the Lightcone team to try the tools, validate outputs, and give scientific feedback. No fixed weekly-hour quota; no private contact details.
+    validations:
+      required: true
+  - type: input
+    id: working-group
+    attributes:
+      label: Relevant DESC working group / collaborators
+      description: Mention related efforts or collaborators to help make connections and avoid duplication.
+    validations:
+      required: false
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints or dependencies
+      description: Describe data permissions, compute environment, validation needs, or prior commitments at a high level only. Do not include secrets, credentials, sensitive data, restricted content, or access-controlled links.
+    validations:
+      required: false

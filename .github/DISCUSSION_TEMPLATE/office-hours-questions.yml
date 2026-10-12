@@ -1,0 +1,38 @@
+# Category slug verified: office-hours-questions. Publish on the default branch to activate.
+title: "[Office hours] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a practical question, suggest an Office Hours topic, or follow up on a discussion.
+        No prior AI expertise is needed. Questions about different tools and approaches are welcome,
+        and participation in the Lightcone Research Pilot is optional. Answers can be shared asynchronously.
+
+        **This discussion and its attachments are public on the internet.**
+        Do not post tokens, credentials, personal information, restricted data, unreleased results,
+        proprietary materials, or access-controlled links. Describe sensitive context at a high level
+        and use approved channels for details. Do not send restricted DESC or Rubin data to external AI tools without explicit authorization.
+
+        See [Office Hours](https://github.com/LSSTDESC/agentic-research/blob/main/docs/office-hours.md)
+        for confirmed session details when available and follow [DESC policies](https://lsstdesc.org/pages/policies.html).
+  - type: textarea
+    id: question-topic
+    attributes:
+      label: Question / topic
+      description: What would you like to ask or discuss?
+    validations:
+      required: true
+  - type: textarea
+    id: relevant-context
+    attributes:
+      label: Relevant context
+      description: Briefly describe your workflow, what you have tried, or related public resources. Include only material authorized for public sharing.
+    validations:
+      required: false
+  - type: textarea
+    id: useful-help
+    attributes:
+      label: What would help?
+      description: What explanation, example, troubleshooting, or discussion would be useful?
+    validations:
+      required: false
