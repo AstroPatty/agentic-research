@@ -1,6 +1,6 @@
 # Lightcone Research Pilot
 
-The Lightcone Research Pilot is an activity within [Agentic Research @ LSST DESC](../../README.md). Participating DESC members will test and help improve Lightcone Research's agentic tooling on real LSST science questions and workflows. The Lightcone Research team, made up of DESC members, supports this work with focused engineering, compute, and model inference.
+The Lightcone Research Pilot is an activity within [Agentic Research @ LSST DESC](../../README.md). Participating DESC members will test and help improve Lightcone Research's agentic tooling on real LSST science questions and workflows. The Lightcone Research team will support this work with focused engineering, compute, and model inference.
 
 The aim is to learn where the tooling is scientifically useful, identify its limitations, and use scientific feedback to improve it. Workflows, evaluation methods, and lessons from the pilot can help establish practices the wider Collaboration can reuse. The broader Agentic Research community also welcomes other tools, approaches, and initiatives.
 
