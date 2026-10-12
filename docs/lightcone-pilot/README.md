@@ -6,6 +6,12 @@ The aim is to learn where the tooling is scientifically useful, identify its lim
 
 **Launch status:** the call for ideas is planned for **12 October 2026** and remains unpublished pending approval. Propose ideas by **16 October 2026**. Participating projects will be proposed as sprints at **DESC Sprint Week**, where the Lightcone Research Pilot will kick off with DESC members.
 
+## The tooling you will try
+
+The [Lightcone Research Stack](https://docs.lightconeresearch.org/) combines a plugin for Claude Code and Codex with tools for running, inspecting, and documenting scientific analyses. It works with your own code and data, with you guiding the scientific choices and reviewing the results.
+
+The [quick start](https://docs.lightconeresearch.org/quickstart) and [worked cosmology example](https://docs.lightconeresearch.org/guides/first-analysis) show how to use this tooling in the context of a research project. The pilot is an opportunity to test how well this workflow supports your science and identify where it needs to improve.
+
 ## What participating involves
 
 Because engineering, compute, and inference resources are limited and the goal is a focused effort with fast turnaround, the Lightcone team aims to extend dedicated support to a limited number of projects, subject to capacity, agreed scope, and approved access arrangements.

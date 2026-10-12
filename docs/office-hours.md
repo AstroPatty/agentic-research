@@ -8,7 +8,7 @@ Everyone is welcome to bring experiments with different tools, share lessons, an
 
 Use [Office Hours & Questions](https://github.com/LSSTDESC/agentic-research/discussions/categories/office-hours-questions) to suggest topics, ask practical questions, and share answers and useful links asynchronously. A short question and public context are enough; you do not need a polished demo.
 
-A suggested session format is short introductions, community questions or demos, collective problem solving, and links to follow-up resources. Initially an organizer can host; hosts can rotate and additional DESC co-organizers can join as the activity develops. See [organizing roles](organizing.md).
+A suggested session format is short introductions, community questions or demos, collective problem solving, and links to follow-up resources. Initially an organizer can host; hosts can rotate and additional DESC co-organizers can join as the activity develops.
 
 ## Session details
 
