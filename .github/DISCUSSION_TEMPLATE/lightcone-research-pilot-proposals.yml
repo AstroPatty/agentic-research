@@ -5,18 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Propose a research project for the **Lightcone Research Pilot**: an activity to test and improve
-        Lightcone Research's agentic tooling on LSST science questions and workflows.
+        Propose a research project for the **Lightcone Research Pilot**: an activity to test and improve Lightcone Research's agentic tooling on LSST science questions and workflows.
         
-        The Lightcone team provides focused engineering, compute, and model inference to support participating research projects,
-        and in return, participating projects provide feedback and insights to help improve the tools.
+        The Lightcone team provides focused engineering, compute, and model inference to support participating research projects, and in return, participating projects provide feedback and insights to help improve the tools.
 
         Bring an interesting scientific problem and a willingness to try the tools, evaluate the outputs, and give feedback.
         No prior knowledge of Lightcone's tooling or fully designed agent architecture is needed.
 
-        Resources are limited, and the goal is a focused effort with fast turnaround, so the Lightcone team aims to extend dedicated 
-        support to a limited number of projects. Everyone is still welcome to experiment, collaborate, and share what they learn, 
-        whether or not they receive that support. Comments help refine ideas; upvotes do not allocate resources.
+        Resources are limited, and the goal is a focused effort with fast turnaround, so the Lightcone team aims to extend dedicated support to a limited number of projects. Everyone is still welcome to experiment, collaborate, and share what they learn, whether or not they receive that support. Comments help refine ideas; upvotes do not allocate resources.
         
         Read about the [Lightcone Research Pilot](https://github.com/LSSTDESC/agentic-research/blob/main/docs/lightcone-pilot/README.md).
   - type: textarea
