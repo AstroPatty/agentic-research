@@ -19,9 +19,9 @@ We welcome ideas, workflows, and community activities from across DESC. This spa
 
 The **Lightcone Research Pilot** is a first activity within this broader effort. Participating DESC members will test and help improve **Lightcone Research's agentic tooling** on real LSST science questions and workflows. The [Lightcone Research team](https://lightconeresearch.org/) brings **focused engineering, compute, and model inference** to this work, with the aim of understanding where its tools are scientifically useful and developing best practices the Collaboration can adopt more broadly. Because resources are limited and the aim is a **focused effort with fast turnaround**, the Lightcone team plans to extend this dedicated support to a **limited number of projects**, subject to capacity.
 
-The call for ideas is planned for **12 October 2026**, with proposals due by **16 October 2026**. We plan to initiate participating projects as sprints at **DESC Sprint Week**, where we will kick off selected projects.
+The [call for ideas is now open](https://github.com/LSSTDESC/agentic-research/discussions/2), with proposals due by **16 October 2026**. We plan to initiate participating projects as sprints at **DESC Sprint Week**, where we will kick off selected projects.
 
-[![Submit a project idea](docs/assets/submit-project-idea.svg)](https://github.com/LSSTDESC/agentic-research/discussions/categories/lightcone-research-pilot-proposals)
+[![Submit a project idea](docs/assets/submit-project-idea.svg)](https://github.com/LSSTDESC/agentic-research/discussions/new?category=lightcone-research-pilot-proposals)
 
 ➡️ **[Read more about the Lightcone Research Pilot](docs/lightcone-pilot/README.md).**
 

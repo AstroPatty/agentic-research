@@ -16,7 +16,7 @@ These questions help researchers and the Lightcone team find a useful scope for 
 
 ## Process
 
-1. The call for ideas is planned for **12 October 2026**, with proposals due by **16 October 2026**. Once the call is open, create a [Lightcone Research Pilot Proposals](https://github.com/LSSTDESC/agentic-research/discussions/categories/lightcone-research-pilot-proposals) Discussion. See the [Lightcone pilot overview](README.md) for the activity's scope.
+1. The [call for ideas is now open](https://github.com/LSSTDESC/agentic-research/discussions/2), with proposals due by **16 October 2026**. Submit your idea using the [Lightcone pilot proposal form](https://github.com/LSSTDESC/agentic-research/discussions/new?category=lightcone-research-pilot-proposals). See the [Lightcone pilot overview](README.md) for the activity's scope.
 2. DESC members can comment, offer to collaborate, flag related efforts, and endorse proposals. **Upvotes signal interest; they are not a ranking or mandate.**
 3. The Lightcone team and scientific collaborators discuss the research aim, a useful first test of the tooling, how to validate it, collaborators' availability, and the support the team can offer. Organizers may seek clarification or suggest combining related proposals.
 4. When the team and scientific collaborators agree on a project and its support, organizers apply the `selected` label, explain the agreed focus, and identify a contact and scoping plan. The plan is to propose these projects as sprints at **DESC Sprint Week**, where the Lightcone Research Pilot will kick off with DESC members. Support remains subject to capacity, permissions, and institutional procedures. Actual projects are added to [the Lightcone pilot project list](projects.md).

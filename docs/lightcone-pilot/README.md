@@ -4,7 +4,7 @@ The Lightcone Research Pilot is an activity within [Agentic Research @ LSST DESC
 
 The aim is to learn where the tooling is scientifically useful, identify its limitations, and use scientific feedback to improve it. Workflows, evaluation methods, and lessons from the pilot can help establish practices the wider Collaboration can reuse. The broader Agentic Research community also welcomes other tools, approaches, and initiatives.
 
-**Launch status:** the call for ideas is planned for **12 October 2026** and remains unpublished pending approval. Propose ideas by **16 October 2026**. Participating projects will be proposed as sprints at **DESC Sprint Week**, where the Lightcone Research Pilot will kick off projects.
+**Launch status:** the [call for ideas is now open](https://github.com/LSSTDESC/agentic-research/discussions/2). Propose ideas by **16 October 2026**. Participating projects will be proposed as sprints at **DESC Sprint Week**, where the Lightcone Research Pilot will kick off projects.
 
 ## The tooling you will try
 
@@ -28,7 +28,7 @@ You do not need a fully specified solution, prior agentic AI experience, or fami
 
 The October 16 deadline gives the team and interested scientific collaborators a starting point for developing sprint proposals. DESC Sprint Week will be the setting for hands-on work together and the kickoff of the Lightcone Research Pilot. Specific sprint scope and participation arrangements will be worked out with the researchers involved.
 
-Once the call opens, use one [Lightcone Research Pilot Proposals](https://github.com/LSSTDESC/agentic-research/discussions/categories/lightcone-research-pilot-proposals) Discussion per research idea for testing and improving Lightcone's tooling through this focused collaboration. This category is exclusively for participation in the Lightcone pilot and discussion of those proposals. Use [General](https://github.com/LSSTDESC/agentic-research/discussions/categories/general) for broader research ideas, potential collaborations, and other initiatives.
+Submit each research idea using the [Lightcone pilot proposal form](https://github.com/LSSTDESC/agentic-research/discussions/new?category=lightcone-research-pilot-proposals) to explore testing and improving Lightcone's tooling through this focused collaboration. Create one Discussion per idea. This category is exclusively for participation in the Lightcone pilot and discussion of those proposals. Use [General](https://github.com/LSSTDESC/agentic-research/discussions/categories/general) for broader research ideas, potential collaborations, and other initiatives.
 
 The form is intended to take about 10–15 minutes and asks for the scientific goal, a useful pilot outcome, and a scientific contact's involvement. Optional fields cover possible agent roles; links to repositories, analysis code, notebooks, and related work; data and access requirements; computing requirements such as running at NERSC, CC-IN2P3, or another environment; and related working groups. It is fine to be unsure how agents could help or not yet know the infrastructure details.
 
