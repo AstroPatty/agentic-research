@@ -22,10 +22,10 @@ This can be done on your local machine, directly at NERSC or at CC-IN2P3.
 
 Access to the inference service is obtained through the Globus compute portal, with NERSC as identity provider.
 
-If you can already log in to OpenCosmo, you have access. The service accepts Globus logins only from DOE-lab identity providers. `nersc.gov` is one of them, but a university or CNRS identity alone is rejected.
+The service accepts Globus logins only from DOE-lab identity providers. `nersc.gov` is one of them, but a university or CNRS identity alone is rejected.
 
 1. **Check.** Open [inference.alcf.anl.gov](https://inference.alcf.anl.gov/), choose *NERSC* as the identity provider and log in. If the chat UI loads, skip to section 2.
-2. **Request.** If you are refused, log in to the OpenCosmo portal with the same NERSC identity and submit the access request it prompts for. Eligibility is a NERSC or ALCF account, or a DOE-lab affiliation. Approval adds you to the OpenCosmo Globus group ([OpenCosmo paper, §4.5](https://arxiv.org/pdf/2607.16059)). DESC members should also check the *Getting Started* tab pinned in the DESC channel.
+2. **Request.** If you are refused, message Patrick Wells on the Discovery Alliance slack channel so we can sort it out.
 3. **Link identities (optional).** If your everyday Globus account uses another identity, link your NERSC identity to it at [app.globus.org](https://app.globus.org/). Then log in the same way every time. Mixing unlinked identities causes `IdentityMismatchError` (section 6).
 
 To hear about maintenance and new models, join the [service mailing list](https://mailman.cels.anl.gov/mailman3/lists/inference-service-notify.lists.alcf.anl.gov/).
@@ -33,6 +33,8 @@ To hear about maintenance and new models, join the [service mailing list](https:
 ## 2. Install and authenticate
 
 Install two small CLIs (Python 3.10+). `alcf-tokens` handles Globus tokens, and `alcf-ai` handles model discovery and agent setup. They work the same on a laptop and on a Perlmutter or a CC-IN2P3 node.
+
+We recommend installing the CLIs with `uv` or `pipx`, which ensures your agents can automatically refresh tokens as they expire. You can still isntall it into a virtual environment with `pip`, but your agent may not be able to refresh tokens automatically.
 
 ```bash
 # pick one
@@ -58,7 +60,7 @@ alcf-tokens get-token inference     # prints a bearer token for curl or other cl
 
 On Perlmutter, `$HOME` is shared across login nodes, so a single login covers all of them. No browser opens there. Check on first use that the login prints a URL you can open on your laptop.
 
-**Rule for agents:** have the agent fetch a fresh token through a helper command rather than storing a token string. A copied token stops working after 48 h, often in the middle of a session. This is handled by `alcf-ai configure`.
+**Rule for agents:** have the agent fetch a fresh token through a helper command rather than storing a token string. A copied token stops working after 48 h, often in the middle of a session. This is handled by `alcf-ai agent configure`.
 
 ## 3. Pick a cluster and model
 
@@ -77,6 +79,8 @@ All paths sit under `https://inference-api.alcf.anl.gov/resource_server`. The fu
 
 The recommended route is `alcf-ai agent configure <agent>`. It writes the config, and when `alcf-tokens` is on your `PATH` it wires up automatic token refresh. If neither CLI is on `PATH`, it embeds a token that expires after 48 h. You can re-run it at any time.
 
+If you install the CLIs with `uv` or `pipx`, the CLIs will always be available on your `PATH`
+
 ```bash
 alcf-ai agent configure opencode  # also: pi | claude | codex
 alcf-ai agent configure opencode --include-experimental  # add non-whitelisted models
@@ -89,6 +93,12 @@ To override the default model and cluster, use the `-m` and `-c` options. This i
 ```bash
 alcf-ai agent configure claude -m nemotron-3-ultra -c minerva
 ```
+
+## 5. Harness Support
+
+Proprietary agent harnesses (namely Claude Code and Codex) do not have good support for custom models, as they want you to use their proprietary models. As a result, switching between models in these harnesses can bee a bit clunky, and will general overwrite your configuration for the first-party models. This is a limitation of the harness, not the ALCF inference service.
+
+Open-source coding agents (e.g. `pi` and `opencode`) support arbitrary models from arbitrary providers, and are generally much better behaved with the inference service.
 
 **Want to configure your harnesses manually?**
 <details>
